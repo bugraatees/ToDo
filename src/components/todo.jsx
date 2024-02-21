@@ -34,7 +34,6 @@ const Todo = () => {
         setTodos(updatedTodos);
     }
 
-
     return (
         <>
             <div className="h-auto flex justify-center w-full ">
@@ -92,8 +91,6 @@ const Todo = () => {
             </div>
         </>
     )
-
-
 }
 
 export default Todo;
