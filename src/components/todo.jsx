@@ -74,7 +74,7 @@ const Todo = () => {
                                 </div>
 
                             </div>
-                            <div className="flex justify-between mt-3">
+                            <div className="flex justify-between mt-4">
                                 <button onClick={() => deleteTodo(todo.id)} class="flex-no-shrink p-3 px-4 ml-2   font-bold text-gray-800  bg-red-400 rounded hover:bg-red-300  md:w-auto">Remove</button>
                                 {todo.completed ? (
                                     <div className="flex items-center " >  <img src="https://img.icons8.com/fluent/30/000000/checked-2.png" />
